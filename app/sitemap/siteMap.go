@@ -1,9 +1,9 @@
 package sitemap
 
 import (
-	parser "github.com/vasudevrani/go-sitemap/app/parser"
-	"github.com/vasudevrani/go-sitemap/domain/model"
-	uc "github.com/vasudevrani/go-sitemap/domain/usecase"
+	parser "github.com/vasudevrani/sitemap/app/parser"
+	"github.com/vasudevrani/sitemap/domain/model"
+	uc "github.com/vasudevrani/sitemap/domain/usecase"
 )
 
 type siteMap struct {

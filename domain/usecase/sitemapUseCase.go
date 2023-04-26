@@ -5,7 +5,7 @@ import (
 	"strings"
 	"fmt"
 
-	"github.com/vasudevrani/go-sitemap/app/api"
+	"github.com/vasudevrani/sitemap/app/api"
 )
 
 func IsSitemap(urls []string) ([]string, []string) {

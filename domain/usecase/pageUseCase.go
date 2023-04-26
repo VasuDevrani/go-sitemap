@@ -3,9 +3,9 @@ package usecase
 import (
 	"net/http"
 
-	ps "github.com/vasudevrani/go-sitemap/app/parser"
-	"github.com/vasudevrani/go-sitemap/app/api"
-	"github.com/vasudevrani/go-sitemap/domain/model"
+	ps "github.com/vasudevrani/sitemap/app/parser"
+	"github.com/vasudevrani/sitemap/app/api"
+	"github.com/vasudevrani/sitemap/domain/model"
 )
 
 func ScrapePage(url string, token chan struct{}, parser ps.Parser) (model.SeoData, error) {

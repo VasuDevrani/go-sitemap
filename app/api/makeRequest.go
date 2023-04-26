@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	aps "github.com/vasudevrani/go-sitemap/applicationservice"
+	aps "github.com/vasudevrani/sitemap/applicationservice"
 )
 
 func MakeRequest(url string) (*http.Response, error) {

@@ -1,4 +1,4 @@
-module github.com/vasudevrani/go-sitemap
+module github.com/vasudevrani/sitemap
 
 go 1.20
 

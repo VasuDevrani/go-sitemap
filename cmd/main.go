@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/vasudevrani/go-sitemap/app/sitemap"
+	"github.com/vasudevrani/sitemap/app/sitemap"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package parser
 
 import (
 	"net/http"
-	"github.com/vasudevrani/go-sitemap/domain/model"
+	"github.com/vasudevrani/sitemap/domain/model"
 )
 
 type Parser interface {

@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vasudevrani/go-sitemap/domain/model"
-	ps "github.com/vasudevrani/go-sitemap/app/parser"
+	"github.com/vasudevrani/sitemap/domain/model"
+	ps "github.com/vasudevrani/sitemap/app/parser"
 	"github.com/PuerkitoBio/goquery"
 )
 
